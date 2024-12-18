@@ -1,0 +1,252 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "Project Rubicon",
+      "image": "/images/portfolio/rse-small.webp",
+      "image_alt": "",
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/portfolio/rse-big.webp"
+        }
+      ],
+      "text_intro": "",
+      "text_dev": "",
+      "text_link": {
+        "url": "",
+        "label": ""
+      },
+      "text_tech": ""
+    },
+    {
+      "id": 1,
+      "title": "Project Copper",
+      "image": "/images/portfolio/rse-small.webp",
+      "image_alt": "",
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/portfolio/rse-big.webp"
+        }
+      ],
+      "text_intro": "",
+      "text_dev": "",
+      "text_link": {
+        "url": "",
+        "label": ""
+      },
+      "text_tech": ""
+    },
+    {
+      "id": 2,
+      "title": "Project Hannibal",
+      "image": "/images/portfolio/rse-small.webp",
+      "image_alt": "",
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/portfolio/rse-big.webp"
+        }
+      ],
+      "text_intro": "",
+      "text_dev": "",
+      "text_link": {
+        "url": "",
+        "label": ""
+      },
+      "text_tech": ""
+    },
+    
+    {
+      "id": 3,
+      "title": "RockSlide Engine",
+      "image": "/images/portfolio/rse-small.webp",
+      "image_alt": "RockSlide Engine Logo",
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/portfolio/rse-big.webp"
+        }
+      ],
+      "text_intro": "Before I started working in game dev I decided to create a small indie company so that I could force myself to focus more on game dev technology, in the begin we used Unity but as I started to gain more experience I wanted to learn more about the under the hood mechanics of game engines.",
+      "text_dev": "I started programming a game engine that in the future could be used to create simple 2D games, most of the engine was done from scratch but I did implement multiple libraries to speed up the process, like SDL2 for window management, GLM for math calculations or Box2D for physics. The project can be viewed in ",
+      "text_link": {
+        "url": "https://github.com/HugoSilva/sdlengine",
+        "label": "Github Page"
+      },
+      "text_tech": "C++, Python, SDL2, OpenGL and GIT."
+    },
+    {
+      "id": 4,
+      "title": "Star Citizen",
+      "image": "/images/portfolio/star-small.jpg",
+      "image_alt": "Star Citizen Logo",
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/portfolio/star01.webp"
+        },
+        {
+          "id": 2,
+          "url": "/images/portfolio/star02.webp"
+        },
+        {
+          "id": 3,
+          "url": "/images/portfolio/star03.webp"
+        },
+        {
+          "id": 4,
+          "url": "/images/portfolio/star04.webp"
+        }
+      ],
+      "text_intro": "Star Citizen is a massive multiplayer online video game which focus on space trading, vehicle dog fighting and exploration, it is the first game from Cloud Imperium Games which started from a record-breaking campaign on Kickstarter.",
+      "text_dev": "As a UI programmer I got the chance to work in some features which require very UI/UX knowledge, some of the work I did is can be seen in the character customizer, the vehicle/FPS scanning feature, the general stores in the universe as well some applications in the mobiglass which is the main UI hub for the player in the game. The project can be viewed in ",
+      "text_link": {
+        "url": "https://robertsspaceindustries.com/star-citizen",
+        "label": "RSI - Star Citizen Page"
+      },
+      "text_tech": "C++, ActionScript, Lumberyard (CryEngine), Jira, and Perforce."
+    },
+    {
+      "id": 5,
+      "title": "Squadron 42",
+      "image": "/images/portfolio/squadron-small.jpg",
+      "image_alt": "Squadron 42 Logo",
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/portfolio/squadron01.webp"
+        },
+        {
+          "id": 2,
+          "url": "/images/portfolio/squadron02.webp"
+        },
+        {
+          "id": 3,
+          "url": "/images/portfolio/squadron03.webp"
+        },
+        {
+          "id": 4,
+          "url": "/images/portfolio/squadron04.webp"
+        },
+        {
+          "id": 5,
+          "url": "/images/portfolio/squadron05.webp"
+        }
+      ],
+      "text_intro": "Squadron 42 is a story driven single-player game set in the same universe as Star Citizen, most of its gameplay elements are the same as Star Citizen but with a mission-based story line which will very reminiscent of the Wing Commander Series.",
+      "text_dev": "Most of my responsibilities were directly connected to UI that meant coordinating with the UI artists to implement new graphics in the game, created and maintain UI code that would communicate with multiple systems, but I also had to understand and solve issues related with other teams like gameplay or graphics. The project can be viewed in ",
+      "text_link": {
+        "url": "https://robertsspaceindustries.com/squadron42",
+        "label": "RSI - Squadron 42 Page"
+      },
+      "text_tech": "C++, ActionScript, Lumberyard (CryEngine), Jira, and Perforce."
+    },
+    {
+      "id": 6,
+      "title": "Hamster Gangster",
+      "image": "/images/portfolio/hamster-small.webp",
+      "image_alt": "Hamster Gangster Logo",
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/portfolio/hamster01.webp"
+        },
+        {
+          "id": 2,
+          "url": "/images/portfolio/hamster02.webp"
+        },
+        {
+          "id": 3,
+          "url": "/images/portfolio/hamster03.webp"
+        },
+        {
+          "id": 4,
+          "url": "/images/portfolio/hamster04.webp"
+        }
+      ],
+      "text_intro": "I was a part of Loco game team that participated in the Jamchester 2017 which is a \\\"professional\\\" game jam organized annually in Manchester which gathers all the talent in the north west of the UK.",
+      "text_dev": "The jam theme was \\\"shape the future\\\" and we created a co-op brawler among ganster hamsters, all graphic style was created in jam just like music. The project can be seen in ",
+      "text_link": {
+        "url": "https://gamejolt.com/games/hamster-gangster/276479",
+        "label": "Gamejolt Page"
+      },
+      "text_tech": "Unity3D and C#."
+    },
+    {
+      "id": 7,
+      "title": "Always pay the troll",
+      "image": "/images/portfolio/always-small.webp",
+      "image_alt": "Always pay the troll Logo",
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/portfolio/always-big.webp"
+        }
+      ],
+      "text_intro": "I was a part of Continued Replay team that participated in the Banana Jam which is a game jam organized annually by Nerd Monkeys® looking for new talent to work with them in the future.",
+      "text_dev": "The plan was to create a endless Dungeon Crawler video game, with a mixture of Japanese and medieval visual, all the graphic style was created in pixel art and nostalgic 8-bit music. The project can be viewed in ",
+      "text_link": {
+        "url": "https://gamejolt.com/games/always-pay-the-troll-toll/55755",
+        "label": "Gamejolt Page"
+      },
+      "text_tech": "Unity3D and C#."
+    },
+    {
+      "id": 8,
+      "title": "Cacho Dourado",
+      "image": "/images/portfolio/cacho-small.webp",
+      "image_alt": "Cacho Dourado Logo",
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/portfolio/cacho01.webp"
+        },
+        {
+          "id": 2,
+          "url": "/images/portfolio/cacho02.webp"
+        },
+        {
+          "id": 3,
+          "url": "/images/portfolio/cacho03.webp"
+        },
+        {
+          "id": 4,
+          "url": "/images/portfolio/cacho04.webp"
+        }
+      ],
+      "text_intro": "Vinhos do Alentejo is an association of portuguese winemakers that make some of the best red wine in all of Europe, they are expanding very rapidly in both domestic and internacional markets.",
+      "text_dev": "As requested by the client we created a social video game to be played in facebook, its a point and click farming adventure that mixes farmville with educational objectives. In game the player can create there own farm, choose the wine they want to make but they will also have to compete to win prizes, the game was available for 1 month and half and the winners got real prizes from Vinhos do Alentejo.",
+      "text_link": "",
+      "text_tech": "KineticJS, HTML5, Unity and Javascript."
+    },
+    {
+      "id": 9,
+      "title": "Sonic Maze",
+      "image": "/images/portfolio/sonic-small.webp",
+      "image_alt": "Sonic Maze Logo",
+      "images": [
+        {
+          "id": 1,
+          "url": "/images/portfolio/sonic01-big.webp"
+        },
+        {
+          "id": 2,
+          "url": "/images/portfolio/sonic02-big.webp"
+        },
+        {
+          "id": 3,
+          "url": "/images/portfolio/sonic03-big.webp"
+        }
+      ],
+      "text_intro": "During my academic career I was asked to create a multimedia application that demonstrate the skills acquired throughout the academic semester. I accepted the challenge and chose to create a video game for this project.",
+      "text_dev": "To create this project I decided to use a well-known franchise, with great influence in my life, the game Sonic Maze was born a 3D game which objective is to navigate a maze collecting all the emeralds in the minimum time possible. This game also has an online component that lets you share results.",
+      "text_link": {
+        "url": "",
+        "label": ""
+      },
+      "text_tech": "C++, OpenGL and GLUT"
+    }
+  ]
+}
