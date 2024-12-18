@@ -80,7 +80,7 @@
     {
       "id": 4,
       "title": "Star Citizen",
-      "image": "/images/portfolio/star-small.jpg",
+      "image": "/images/portfolio/star-small.webp",
       "image_alt": "Star Citizen Logo",
       "images": [
         {
@@ -111,7 +111,7 @@
     {
       "id": 5,
       "title": "Squadron 42",
-      "image": "/images/portfolio/squadron-small.jpg",
+      "image": "/images/portfolio/squadron-small.webp",
       "image_alt": "Squadron 42 Logo",
       "images": [
         {
