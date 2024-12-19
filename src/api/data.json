@@ -1,4 +1,38 @@
 {
+  "skills": [
+    {
+      "name": "Unreal Engine",
+      "value": 90
+    },
+    {
+      "name": "C++",
+      "value": 90
+    },
+    {
+      "name": "Unity",
+      "value": 70
+    },
+    {
+      "name": "C#",
+      "value": 80
+    },
+    {
+      "name": "Source Control",
+      "value": 80
+    },
+    {
+      "name": "Adobe Photoshop",
+      "value": 65
+    },
+    {
+      "name": "Figma",
+      "value": 65
+    },
+    {
+      "name": "Blender",
+      "value": 60
+    }
+  ],
   "projects": [
     {
       "id": 0,

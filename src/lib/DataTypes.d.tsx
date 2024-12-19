@@ -1,4 +1,9 @@
-﻿export type ProjectType = {
+﻿export type SkillType = {
+    name: string
+    value: number
+}
+
+export type ProjectType = {
     id: number
     title: string
     image: string
@@ -17,5 +22,6 @@
 }
 
 export type DataType = {
+    skills: SkillType[]
     projects: ProjectType[]
 }
