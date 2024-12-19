@@ -1,4 +1,10 @@
-﻿export default function Skills() {
+﻿import {DataType} from "@/lib/DataTypes.d";
+import {getLocalData} from "@/api/dataLayer";
+
+export default async function Skills() {
+
+    const data: DataType = await getLocalData();
+
     return (
         <section id="skills" className="skills">
             <div className="skill-content">
@@ -6,119 +12,26 @@
                     <h2>skills</h2>
                 </div>
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-6">
-                            <div className="single-skill-content">
-                                <div className="barWrapper">
-                                    <span className="progressText">unreal engine</span>
-                                    <div className="single-progress-txt">
-                                        <div className="progress ">
-                                            <div className="progress-bar" role="progressbar" aria-valuenow="90"
-                                                 aria-valuemin="10"
-                                                 aria-valuemax="100">
+                    <div className="single-skill-content">
+                        {
+                            data.skills.map((skill) => (
+                                <div key={skill.value} className="col-md-6">
+                                    <div className="barWrapper">
+                                        <span className="progressText">{skill.name}</span>
+                                        <div className="single-progress-txt">
+                                            <div className="progress ">
+                                                <div className="progress-bar" role="progressbar" aria-valuenow={skill.value}
+                                                     aria-valuemin={10}
+                                                     aria-valuemax={100}>
 
+                                                </div>
                                             </div>
+                                            <h3>{skill.value}%</h3>
                                         </div>
-                                        <h3>90%</h3>
                                     </div>
                                 </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">Unity</span>
-                                    <div className="single-progress-txt">
-                                        <div className="progress ">
-                                            <div className="progress-bar" role="progressbar" aria-valuenow="70"
-                                                 aria-valuemin="10"
-                                                 aria-valuemax="100">
-
-                                            </div>
-                                        </div>
-                                        <h3>70%</h3>
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">adobe photoshop</span>
-                                    <div className="single-progress-txt">
-                                        <div className="progress ">
-                                            <div className="progress-bar" role="progressbar" aria-valuenow="65"
-                                                 aria-valuemin="10"
-                                                 aria-valuemax="100">
-
-                                            </div>
-                                        </div>
-                                        <h3>65%</h3>
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">Blender</span>
-                                    <div className="single-progress-txt">
-                                        <div className="progress ">
-                                            <div className="progress-bar" role="progressbar" aria-valuenow="60"
-                                                 aria-valuemin="10"
-                                                 aria-valuemax="100">
-
-                                            </div>
-                                        </div>
-                                        <h3>60%</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
-                            <div className="single-skill-content">
-                                <div className="barWrapper">
-                                    <span className="progressText">c++</span>
-                                    <div className="single-progress-txt">
-                                        <div className="progress ">
-                                            <div className="progress-bar" role="progressbar" aria-valuenow="90"
-                                                 aria-valuemin="10"
-                                                 aria-valuemax="100">
-
-                                            </div>
-                                        </div>
-                                        <h3>90%</h3>
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">c#</span>
-                                    <div className="single-progress-txt">
-                                        <div className="progress ">
-                                            <div className="progress-bar" role="progressbar" aria-valuenow="80"
-                                                 aria-valuemin="10"
-                                                 aria-valuemax="100">
-
-                                            </div>
-                                        </div>
-                                        <h3>80%</h3>
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">communication</span>
-                                    <div className="single-progress-txt">
-                                        <div className="progress ">
-                                            <div className="progress-bar" role="progressbar" aria-valuenow="97"
-                                                 aria-valuemin="10"
-                                                 aria-valuemax="100">
-
-                                            </div>
-                                        </div>
-                                        <h3>97%</h3>
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText"> creativity</span>
-                                    <div className="single-progress-txt">
-                                        <div className="progress ">
-                                            <div className="progress-bar" role="progressbar" aria-valuenow="90"
-                                                 aria-valuemin="10"
-                                                 aria-valuemax="100">
-
-                                            </div>
-                                        </div>
-                                        <h3>90%</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            ))
+                        }
                     </div>
                 </div>
             </div>

@@ -1,13 +1,13 @@
 import About from "@/app/about";
 import Skills from "@/app/skills";
 import Experience from "@/app/experience";
-import Profiles from "@/app/profiles";
 import Portfolio from "@/app/portfolio";
 import Contact from "@/app/contact";
 import Hero from "@/app/hero";
 import Navbar from "@/app/navbar";
 import Footer from "@/app/footer";
 import Script from "next/script";
+import Tech from "@/app/tech";
 
 export default function Page() {
     
@@ -23,7 +23,7 @@ export default function Page() {
 
             <Experience></Experience>
 
-            <Profiles></Profiles>
+            <Tech></Tech>
 
             <Portfolio></Portfolio>
 
