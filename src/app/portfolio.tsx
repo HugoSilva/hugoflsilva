@@ -1,6 +1,12 @@
 ﻿import Image from "next/image";
+import {DataType} from "@/lib/DataTypes.d";
+import {getLocalData} from "@/api/dataLayer";
+import Link from "next/link";
 
-export default function Portfolio() {
+export default async function Portfolio() {
+
+    const data:DataType = await getLocalData();
+
     return (
         <section id="portfolio" className="portfolio">
             <div className="portfolio-details">
@@ -10,67 +16,26 @@ export default function Portfolio() {
                 <div className="container">
                     <div className="portfolio-content">
                         <div className="isotope">
-                            <div className="row">
-                                <div className="col-sm-6">
-                                    <div className="item">
-                                        <img src="/images/portfolio/p1.jpg" alt="portfolio image"/>
-                                        <div className="isotope-overlay">
-                                            <a href="#">
-                                                AYDR
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-sm-6">
-                                    <div className="item">
-                                        <img src="/images/portfolio/p1.jpg" alt="portfolio image"/>
-                                        <div className="isotope-overlay">
-                                            <a href="#">
-                                                Twisted Metal
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-sm-6">
-                                    <div className="item">
-                                        <img src="/images/portfolio/p1.jpg" alt="portfolio image"/>
-                                        <div className="isotope-overlay">
-                                            <a href="#">
-                                                Project Hannibal
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-sm-6">
-                                    <div className="item">
-                                        <img src="/images/portfolio/squadron-small.jpg" alt="portfolio image"/>
-                                        <div className="isotope-overlay">
-                                            <a href="#">
-                                                Squadron 42
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-sm-6">
+                        {
+                            data.projects.map((project) => (
+                            <div key={"project_"+project.id} className="col-sm-4">
+
+                                <Link href={"/project/"+project.id} className="portfolio-link" data-target="#exampleModal">
                                     <div className="item">
                                         <Image
-                                            src="/images/portfolio/star-small.jpg"
-                                            alt="Star Citizen Logo"
+                                            src={project.image}
+                                            alt={project.image_alt}
                                             width={488}
                                             height={290}
                                         />
                                         <div className="isotope-overlay">
-                                            <a href="#">
-                                                Star Citizen
-                                            </a>
+                                            <h1>{project.title}</h1>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
+                            ))
+                        }
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,8 @@ import Navbar from "@/app/navbar";
 import Footer from "@/app/footer";
 import Script from "next/script";
 
-export default function Home() {
+export default function Page() {
+    
     return (
         <div>
             <Navbar></Navbar>
@@ -29,10 +30,7 @@ export default function Home() {
             <Contact></Contact>
                 
             <Footer></Footer>
-{
-/*
-*/
-}
+                
             <Script src="/js/jquery.js" strategy="beforeInteractive"></Script>
             <Script src="/js/modernizr.min.js" strategy="beforeInteractive"></Script>
             <Script src="/js/bootstrap.min.js" strategy="beforeInteractive"></Script>
