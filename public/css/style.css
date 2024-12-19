@@ -102,7 +102,7 @@ html,body{
 --------------------------------------*/
 .top-area {
     position: relative;
-    z-index: 9999;
+    z-index: 1030;
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
@@ -208,7 +208,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.header-text-area*/
 .header-text h2 {
     color: #fff;
-    font-size: 54px;
+    font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
@@ -280,10 +280,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     width: 109%;
     height:  100%;
     background: rgba(31,44,108,.3);
-}
-.single-about-img img {
-    max-width: 500px;
-    height: 468px;
 }
 .about-list-icon{
     display: flex;
