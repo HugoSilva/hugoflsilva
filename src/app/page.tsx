@@ -1,36 +1,28 @@
-import About from "@/app/about";
-import Skills from "@/app/skills";
-import Experience from "@/app/experience";
-import Portfolio from "@/app/portfolio";
-import Contact from "@/app/contact";
-import Hero from "@/app/hero";
-import Navbar from "@/app/navbar";
-import Footer from "@/app/footer";
+import Navbar from "@/components/navbar";
+import Hero from "@/components/hero";
+import About from "@/components/about";
+import Skills from "@/components/skills";
+import Experience from "@/components/experience";
+import Tech from "@/components/tech";
+import Portfolio from "@/components/portfolio";
+import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 import Script from "next/script";
-import Tech from "@/app/tech";
 
 export default function Page() {
-    
+
     return (
         <div>
             <Navbar></Navbar>
-
             <Hero></Hero>
-
             <About></About>
-
             <Skills></Skills>
-
             <Experience></Experience>
-
             <Tech></Tech>
-
             <Portfolio></Portfolio>
-
             <Contact></Contact>
-                
             <Footer></Footer>
-                
+
             <Script src="/js/jquery.js" strategy="beforeInteractive"></Script>
             <Script src="/js/modernizr.min.js" strategy="beforeInteractive"></Script>
             <Script src="/js/bootstrap.min.js" strategy="beforeInteractive"></Script>

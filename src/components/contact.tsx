@@ -14,26 +14,30 @@
                                         <div className="row">
                                             <div className="col-sm-6 col-xs-12">
                                                 <div className="form-group">
-                                                    <input type="text" className="form-control" id="name" placeholder="Name*" name="name" />
+                                                    <input type="text" className="form-control" id="name"
+                                                           placeholder="Name*" name="name"/>
                                                 </div>
                                             </div>
                                             <div className="col-sm-6 col-xs-12">
                                                 <div className="form-group">
-                                                    <input type="email" className="form-control" id="email" placeholder="Email*" name="email" />
+                                                    <input type="email" className="form-control" id="email"
+                                                           placeholder="Email*" name="email"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="row">
                                             <div className="col-sm-12">
                                                 <div className="form-group">
-                                                    <input type="text" className="form-control" id="subject" placeholder="Subject" name="subject" />
+                                                    <input type="text" className="form-control" id="subject"
+                                                           placeholder="Subject" name="subject"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="row">
                                             <div className="col-sm-12">
                                                 <div className="form-group">
-                                                    <textarea className="form-control" rows={8} id="comment" placeholder="Message" ></textarea>
+                                                    <textarea className="form-control" rows={8} id="comment"
+                                                              placeholder="Message"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -72,11 +76,14 @@
                                 </div>
                                 <div className="hm-foot-icon">
                                     <ul>
-                                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/hugoflsilva"><i
+                                            className="fa fa-linkedin"></i></a></li>
+                                        <li><a href="https://www.facebook.com/rockslidestudios/"><i
+                                            className="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://x.com/hugoflsilva"><i className="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li><a href="http://blog.rockslidestudios.co.uk/"><i
+                                            className="fa fa-wordpress"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
