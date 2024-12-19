@@ -1,4 +1,4 @@
-﻿export default function Profiles() {
+﻿export default function Tech() {
     return (
         <section id="profiles" className="profiles">
             <div className="profiles-details">
