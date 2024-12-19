@@ -15,7 +15,7 @@ export default async function Skills() {
                     <div className="single-skill-content">
                         {
                             data.skills.map((skill) => (
-                                <div key={skill.value} className="col-md-6">
+                                <div key={skill.name} className="col-md-6">
                                     <div className="barWrapper">
                                         <span className="progressText">{skill.name}</span>
                                         <div className="single-progress-txt">
