@@ -123,5 +123,9 @@ $(document).ready(function(){
             $(".header-text a").addClass("animated fadeInDown").css({'opacity':'0'});
         });
 
+	// Closes the Responsive Menu on Menu Item Click
+	$('.navbar-collapse ul li a').click(function () {
+		$('.navbar-toggle:visible').click();
+	});
 });	
 	
