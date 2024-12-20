@@ -239,7 +239,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     align-items: center;
     justify-content: center;
     position: relative;
-    background: url(../images/about/welcome-banner.jpg) no-repeat;
+    background: url(../images/about/header-bg.webp) no-repeat;
     background-size: cover;
     background-position: center;
     height: 890px;
@@ -679,6 +679,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.profile-txt.selected{
+    color: #FFFFFF;
 }
 
 .single-profile {
