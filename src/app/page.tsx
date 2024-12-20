@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 import Script from "next/script";
 
 export default function Page() {
-
+    
     return (
         <div>
             <Navbar></Navbar>
@@ -30,7 +30,6 @@ export default function Page() {
             <Script src="/js/jquery.sticky.js" strategy="beforeInteractive"></Script>
             <Script src="/js/progressbar.js" strategy="beforeInteractive"></Script>
             <Script src="/js/jquery.appear.js" strategy="beforeInteractive"></Script>
-            <Script src="/js/owl.carousel.min.js" strategy="beforeInteractive"></Script>
             <Script src="/js/jquery.easing.min.js" strategy="beforeInteractive"></Script>
             <Script src="/js/custom.js" strategy="beforeInteractive"></Script>
         </div>
