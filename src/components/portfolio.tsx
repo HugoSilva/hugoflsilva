@@ -33,7 +33,7 @@ export default async function Portfolio() {
                                             viewport={{once: true}}
                                             transition={{
                                                 duration: 0.3,
-                                                ease: "easeOut"
+                                                ease: "easeIn"
                                             }}>
                                             <Link href={"/project/" + project.id} className="portfolio-link"
                                                   data-target="#exampleModal">
