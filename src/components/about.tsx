@@ -24,26 +24,6 @@
                                     follower of gaming news and pop culture, often being the go-to person for random 
                                     trivia and industry insights!
                                 </p>
-                                <div className="row">
-                                    <div className="col-sm-4">
-                                        <div className="single-about-add-info">
-                                            <h3>phone</h3>
-                                            <p>(+44) 0776 137 2025</p>
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-4">
-                                        <div className="single-about-add-info">
-                                            <h3>email</h3>
-                                            <p>hugoflsilva@sapo.pt</p>
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-4">
-                                        <div className="single-about-add-info">
-                                            <h3>website</h3>
-                                            <p>www.hugoflsilva.com</p>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div className="col-sm-offset-1 col-sm-5">
