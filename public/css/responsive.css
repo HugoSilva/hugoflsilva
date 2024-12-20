@@ -144,7 +144,7 @@
     .single-profile {
         max-width: 350px;
         margin: 30px auto;
-        border: 0;
+        border: 1px solid #6a708e !important;
         max-height: 100px;
     }
 
