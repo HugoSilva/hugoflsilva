@@ -1,4 +1,5 @@
 ﻿import * as motion from "motion/react-client"
+import Image from "next/image";
 
 const SlideRight = {
     visible: {x: 0, opacity: 1, scale: 1},
@@ -30,7 +31,7 @@ export default function About() {
                                 }}>
                                 <div className="single-about-txt">
                                     <h3>
-                                        Hi, I'm a seasoned lead programmer going on 7 years of experience in game
+                                        Hi, I’m a seasoned lead programmer going on 7 years of experience in game
                                         development, specializing in UI design and implementation. My objective is to
                                         create intuitive and responsive interfaces that blend seamlessly with gameplay
                                         experiences.
@@ -60,7 +61,7 @@ export default function About() {
                                     ease: "easeOut"
                                 }}>
                                 <div className="single-about-img">
-                                    <img src="/images/about/profile_image.jpg" alt="profile_image"/>
+                                    <Image src="/images/about/profile_image.jpg" alt="profile_image" width={500} height={466}/>
                                     <div className="about-list-icon">
                                         <ul>
                                             <li>

@@ -7,6 +7,7 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
 
 export default function PageModal( {projects}: {projects: ProjectType[]}) {
 
@@ -21,7 +22,7 @@ export default function PageModal( {projects}: {projects: ProjectType[]}) {
         
     }
     
-    var settings = {
+    const settings = {
         autoplay: true,
         dots: true,
         dotsClass: "slick-dots slick-dots-expection",
@@ -55,7 +56,7 @@ export default function PageModal( {projects}: {projects: ProjectType[]}) {
                                             {
                                                 selectedProject.images.map(image => (
                                                     <div key={"img_" + image.id}>
-                                                        <img className="img-responsive img-centered" src={image.url}
+                                                        <Image className="img-responsive img-centered" src={image.url}
                                                              alt=""/>
                                                     </div>
                                                 ))

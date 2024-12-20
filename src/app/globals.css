@@ -85,7 +85,8 @@
 }
 
 .isotope-overlay h1 {
-    color: #fff;
-    font-size: 30px;
+    color: #FFFFFF;
+    font-size: 28px;
     text-transform: uppercase;
+    text-shadow: 1px 1px 2px #055B8D;
 }
