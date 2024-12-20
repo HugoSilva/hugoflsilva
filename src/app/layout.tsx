@@ -37,8 +37,6 @@ export default function RootLayout({
             <link rel="stylesheet" href="/css/font-awesome.min.css"/>
             <link rel="stylesheet" href="/css/flaticon.css"/>
             <link rel="stylesheet" href="/css/fontello.css"/>
-            <link rel="stylesheet" href="/css/owl.carousel.min.css"/>
-            <link rel="stylesheet" href="/css/owl.theme.default.min.css"/>
             <link rel="stylesheet" href="/css/bootstrap.min.css"/>
             <link rel="stylesheet" href="/css/bootsnav.css"/>
             <link rel="stylesheet" href="/css/style.css"/>
