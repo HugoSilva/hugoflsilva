@@ -12,7 +12,7 @@ import Script from "next/script";
 export default function Page() {
     
     return (
-        <div>
+        <div id="page-top">
             <Navbar></Navbar>
             <Hero></Hero>
             <About></About>

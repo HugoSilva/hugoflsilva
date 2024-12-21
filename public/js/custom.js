@@ -38,7 +38,7 @@ $(document).ready(function () {
 
     //=============
 
-    $('li.smooth-menu a').bind("click", function (event) {
+    $('li.smooth-menu a, .navbar-header a').bind("click", function (event) {
         event.preventDefault();
         var anchor = $(this);
         $('html, body').stop().animate({

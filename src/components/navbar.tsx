@@ -11,7 +11,7 @@ export default function Navbar() {
                                     data-target="#navbar-menu">
                                 <i className="fa fa-bars"></i>
                             </button>
-                            <Link className="navbar-brand" href="/">HugoflSilva</Link>
+                            <Link className="navbar-brand" href="#page-top">HugoflSilva</Link>
                         </div>
                         <div className="collapse navbar-collapse menu-ui-design" id="navbar-menu">
                             <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
