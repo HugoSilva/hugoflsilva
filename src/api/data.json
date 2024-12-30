@@ -37,12 +37,12 @@
     {
       "id": 0,
       "title": "Project Rubicon",
-      "image": "/images/portfolio/rse-small.webp",
+      "image": "/images/portfolio/RubiconLogo.webp",
       "image_alt": "",
       "images": [
         {
           "id": 1,
-          "url": "/images/portfolio/rse-big.webp"
+          "url": "/images/portfolio/Rubicon01.webp"
         }
       ],
       "text_intro": "",
@@ -51,45 +51,61 @@
         "url": "",
         "label": ""
       },
-      "text_tech": ""
+      "text_tech": "C++, Unreal Engine 5, UMG, Jira, and Perforce."
     },
     {
       "id": 1,
       "title": "Project Copper",
-      "image": "/images/portfolio/rse-small.webp",
+      "image": "/images/portfolio/CopperLogo.webp",
       "image_alt": "",
       "images": [
         {
           "id": 1,
-          "url": "/images/portfolio/rse-big.webp"
+          "url": "/images/portfolio/Copper01.webp"
+        },
+        {
+          "id": 2,
+          "url": "/images/portfolio/Copper02.webp"
+        },
+        {
+          "id": 3,
+          "url": "/images/portfolio/Copper03.webp"
+        },
+        {
+          "id": 4,
+          "url": "/images/portfolio/Copper04.webp"
         }
       ],
-      "text_intro": "",
-      "text_dev": "",
+      "text_intro": "Project Copper was a 3rd person vehicular action combat game, it was based on a classic IP owned by PlayStation developed by Firesprite (PlayStation Studios) it had 3rd person shooter mechanics wrapped with 3rd person vehicle combat with the objective of being the last one standing.",
+      "text_dev": "\nI joined the team as the Lead UI Programmer and had to create the base UI system to be within the company moving forward, after establishing the system I had to start working on the bespoke needs of the project while managing the UI code team and being the bridge with the UX and UI art teams.",
       "text_link": {
         "url": "",
         "label": ""
       },
-      "text_tech": ""
+      "text_tech": "C++, Unreal Engine 5, UMG, Jira, and Perforce."
     },
     {
       "id": 2,
       "title": "Project Hannibal",
-      "image": "/images/portfolio/rse-small.webp",
+      "image": "/images/portfolio/HannibalLogo.webp",
       "image_alt": "",
       "images": [
         {
           "id": 1,
-          "url": "/images/portfolio/rse-big.webp"
+          "url": "/images/portfolio/Hannibal01.webp"
+        },
+        {
+          "id": 2,
+          "url": "/images/portfolio/Hannibal02.webp"
         }
       ],
-      "text_intro": "",
-      "text_dev": "",
+      "text_intro": "Project Hannibal was a turn-based tactics game developed by the same team that made Gears Tactics, it was an original IP developed by Splash Damage based on a dangerous sci-fi world akin to Guardians of the Galaxy but with the turn-based combat gameplay of XCOM.",
+      "text_dev": "I was part of the UI team as a senior programmer and I had to create multiple gameplay features, for examples head up displays components to use during gameplay, I also had the opportunity to work on management menus like equipment and team screens, and was also tasked to research and find new UI materials.",
       "text_link": {
         "url": "",
         "label": ""
       },
-      "text_tech": ""
+      "text_tech": "C++, Unreal Engine 4 / 5, UMG, Jira, and Perforce."
     },
     
     {
