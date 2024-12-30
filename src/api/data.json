@@ -37,8 +37,9 @@
     {
       "id": 0,
       "title": "Project Rubicon",
+      "company": "Spliced Inc. (Netease Studio)",
       "image": "/images/portfolio/RubiconLogo.webp",
-      "image_alt": "",
+      "image_alt": "Project Rubicon Logo",
       "images": [
         {
           "id": 1,
@@ -56,8 +57,9 @@
     {
       "id": 1,
       "title": "Project Copper",
+      "company": "Firesprite (Playstation Studios)",
       "image": "/images/portfolio/CopperLogo.webp",
-      "image_alt": "",
+      "image_alt": "Project Copper Logo",
       "images": [
         {
           "id": 1,
@@ -87,8 +89,9 @@
     {
       "id": 2,
       "title": "Project Hannibal",
+      "company": "Splash Damage (Tencent Studio)",
       "image": "/images/portfolio/HannibalLogo.webp",
-      "image_alt": "",
+      "image_alt": "Project Hannibal Logo",
       "images": [
         {
           "id": 1,
@@ -111,6 +114,7 @@
     {
       "id": 3,
       "title": "RockSlide Engine",
+      "company": "RockSlide Studios",
       "image": "/images/portfolio/rse-small.webp",
       "image_alt": "RockSlide Engine Logo",
       "images": [
@@ -130,6 +134,7 @@
     {
       "id": 4,
       "title": "Star Citizen",
+      "company": "Cloud Imperium Games",
       "image": "/images/portfolio/star-small.webp",
       "image_alt": "Star Citizen Logo",
       "images": [
@@ -161,6 +166,7 @@
     {
       "id": 5,
       "title": "Squadron 42",
+      "company": "Cloud Imperium Games",
       "image": "/images/portfolio/squadron-small.webp",
       "image_alt": "Squadron 42 Logo",
       "images": [

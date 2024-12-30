@@ -41,14 +41,14 @@ export default function ProjectModal({projects}: { projects: ProjectType[] }) {
                         <div className="col-lg-8 col-lg-offset-2">
                             <div className="modal-body">
                                 <h2>{selectedProject.title}</h2>
-                                <p className="item-intro text-muted">type</p>
+                                <p className="item-intro text-muted">{selectedProject.company}</p>
                                 { selectedProject.images.length > 1 ? (
                                     <Slider {...settings}>
                                         {
                                             selectedProject.images.map(image => (
                                                 <div key={"img_" + image.id}>
                                                     <Image className="img-responsive img-centered" src={image.url}
-                                                           alt="" width={600} height={400}/>
+                                                           alt="" width={1920} height={1080}/>
                                                 </div>
                                             ))
                                         }
@@ -56,7 +56,7 @@ export default function ProjectModal({projects}: { projects: ProjectType[] }) {
                                 ) : (
                                     <div key={"img_" + selectedProject.images[0].id}>
                                         <Image className="img-responsive img-centered" src={selectedProject.images[0].url}
-                                               alt="" width={600} height={400}/>
+                                               alt="" width={1920} height={1080}/>
                                     </div>
                                 )}
                                 <p>{selectedProject.text_intro}</p>

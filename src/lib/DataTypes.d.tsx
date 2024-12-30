@@ -6,6 +6,7 @@
 export type ProjectType = {
     id: number
     title: string
+    company?: string
     image: string
     image_alt: string
     images: {
