@@ -304,5 +304,49 @@
       },
       "text_tech": "C++, OpenGL and GLUT"
     }
+  ],
+  "tech": [
+    {
+      "icon": "icon-unreal_engine",
+      "name": "Unreal Engine",
+      "url": "https://www.unrealengine.com"
+    },
+    {
+      "icon": "icon-perforce",
+      "name": "Perforce",
+      "url": "https://www.perforce.com"
+    },
+    {
+      "icon": "icon-unity",
+      "name": "Unity",
+      "url": "https://unity.com"
+    },
+    {
+      "icon": "flaticon-github-logo",
+      "name": "github",
+      "url": "https://github.com/", 
+      "hasBorder": false
+    },
+    {
+      "icon": "icon-rider",
+      "name": "Rider",
+      "url": "https://www.jetbrains.com/rider/"
+    },
+    {
+      "icon": "icon-photoshop",
+      "name": "Photoshop",
+      "url": "https://www.adobe.com/products/photoshop.html"
+    },
+    {
+      "icon": "icon-figma",
+      "name": "Figma",
+      "url": "https://www.figma.com"
+    },
+    {
+      "icon": "icon-blender",
+      "name": "Blender",
+      "url": "https://www.blender.org",
+      "hasBorder": false
+    }
   ]
 }

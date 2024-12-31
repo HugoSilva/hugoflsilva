@@ -22,7 +22,15 @@ export type ProjectType = {
     text_tech: string
 }
 
+export type TechType = {
+    icon: string
+    name: string
+    url: string
+    hasBorder?: boolean
+}
+
 export type DataType = {
     skills: SkillType[]
     projects: ProjectType[]
+    tech: TechType[]
 }
