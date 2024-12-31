@@ -20,6 +20,7 @@ export default async function Page() {
                 animate="visible"
                 exit="hidden"
                 transition={{
+                    delay: 0.1,
                     duration: 0.3,
                     ease: "easeIn"
                 }}>
