@@ -1,5 +1,5 @@
 ﻿import {DataType} from "@/lib/DataTypes.d";
-import {getLocalData} from "@/api/dataLayer";
+import {getLocalData} from "@/utils/dataLayer";
 
 export default async function Skills() {
 

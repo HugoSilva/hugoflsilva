@@ -1,6 +1,6 @@
 ﻿import Image from "next/image";
 import {DataType} from "@/lib/DataTypes.d";
-import {getLocalData} from "@/api/dataLayer";
+import {getLocalData} from "@/utils/dataLayer";
 import Link from "next/link";
 import * as motion from "motion/react-client"
 

@@ -1,5 +1,5 @@
 ﻿import {DataType} from "@/lib/DataTypes.d";
-import {getLocalData} from "@/api/dataLayer";
+import {getLocalData} from "@/utils/dataLayer";
 import TechWidget from "@/components/techWidget";
 
 const chunkArray = <T, >(array: T[], chunkSize: number): T[][] => {
@@ -25,8 +25,8 @@ export default async function Tech() {
                     <div className="profiles-content">
                         {
                             profileChunks.map((chunk, rowIndex) => (
-                                <div>
-                                    <div className="row" key={`row_${rowIndex}`}>
+                                <div key={`row_${rowIndex}`}>
+                                    <div className="row">
                                         {
                                             chunk.map((profile, index) => (
                                                 <TechWidget key={"tech_" + index} tech={profile}></TechWidget>
