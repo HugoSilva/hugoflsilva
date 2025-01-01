@@ -5,6 +5,7 @@ const SlideRight = {
     visible: {x: 0, opacity: 1, scale: 1},
     hidden: {x: -100, opacity: 0.1, scale: 0.8},
 }
+
 const SlideLeft = {
     visible: {x: 0, opacity: 1, scale: 1},
     hidden: {x: 100, opacity: 0.1, scale: 0.8},
