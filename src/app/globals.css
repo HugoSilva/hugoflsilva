@@ -102,3 +102,11 @@
 .modal-body.justify p {
     text-align: justify;
 }
+
+.clear-styling {
+    all: unset;
+}
+
+.white-color-text {
+    color: #fff;
+}
