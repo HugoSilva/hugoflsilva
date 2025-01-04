@@ -1,6 +1,39 @@
-﻿import Link from "next/link";
+﻿'use client'
+
+import Link from "next/link";
+import {useEffect, useState} from 'react';
+import Lenis from "lenis";
 
 export default function Navbar() {
+    const [lenisRef, setLenis] = useState<Lenis>();
+    const [rafState, setRaf] = useState<number>(0);
+
+    useEffect(() => {
+        const scroller = new Lenis({
+            duration: 0.6, // Control the duration of the scroll
+            easing: (t) => 1 - Math.pow(1 - t, 3), // Cubic easing for smooth stop
+            smoothWheel: true,
+            syncTouch: true, // Enable smooth scrolling on touch devices
+        });
+        let rf:number;
+
+        function update(time: number) {
+            scroller.raf(time);
+            requestAnimationFrame(update);
+        }
+
+        rf = requestAnimationFrame(update);
+        setRaf(rf);
+        setLenis(scroller);
+
+        return () => {
+            if (lenisRef) {
+                cancelAnimationFrame(rafState);
+                lenisRef.destroy();
+            }
+        };
+    }, []);
+    
     return (
         <header className="top-area">
             <div className="header-area">
