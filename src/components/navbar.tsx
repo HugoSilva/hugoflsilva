@@ -7,7 +7,7 @@ import Lenis from "lenis";
 export default function Navbar() {
     const [lenisRef, setLenis] = useState<Lenis>();
     const [rafState, setRaf] = useState<number>(0);
-
+    
     useEffect(() => {
         const scroller = new Lenis({
             duration: 0.6, // Control the duration of the scroll
@@ -15,7 +15,7 @@ export default function Navbar() {
             smoothWheel: true,
             syncTouch: true, // Enable smooth scrolling on touch devices
         });
-        let rf:number;
+        let rf:number = 0;
 
         function update(time: number) {
             scroller.raf(time);
@@ -32,7 +32,7 @@ export default function Navbar() {
                 lenisRef.destroy();
             }
         };
-    }, []);
+    }, [lenisRef, rafState]);
     
     return (
         <header className="top-area">
