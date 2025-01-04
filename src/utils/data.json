@@ -9,28 +9,28 @@
       "value": 90
     },
     {
+      "name": "Perforce",
+      "value": 85
+    },
+    {
       "name": "Unity",
-      "value": 70
+      "value": 80
     },
     {
       "name": "C#",
       "value": 80
     },
     {
-      "name": "Source Control",
-      "value": 80
+      "name": "Github",
+      "value": 85
     },
     {
       "name": "Adobe Photoshop",
-      "value": 65
+      "value": 70
     },
     {
       "name": "Figma",
-      "value": 65
-    },
-    {
-      "name": "Blender",
-      "value": 60
+      "value": 70
     }
   ],
   "projects": [
@@ -46,8 +46,8 @@
           "url": "/images/portfolio/Rubicon01.webp"
         }
       ],
-      "text_intro": "",
-      "text_dev": "",
+      "text_intro": "Project Rubicon is a 3rd person action-adventure game, it is an original IP developed by Spliced Inc, and it is currently in development, so I can't share any more information.",
+      "text_dev": "When I joined the company as the Lead UI Engineer, I had to define the workflow and dev processes for the UI department, including UX design, UI art and UI code teams, I also had to plan and develop the UI code system, refactor the existing UI code base, plan estimate and develop UI features, while managing a team of 2 UI programmers.",
       "text_link": {
         "url": "",
         "label": ""
@@ -79,7 +79,7 @@
         }
       ],
       "text_intro": "Project Copper was a 3rd person vehicular action combat game, it was based on a classic IP owned by PlayStation developed by Firesprite (PlayStation Studios) it had 3rd person shooter mechanics wrapped with 3rd person vehicle combat with the objective of being the last one standing.",
-      "text_dev": "\nI joined the team as the Lead UI Programmer and had to create the base UI system to be within the company moving forward, after establishing the system I had to start working on the bespoke needs of the project while managing the UI code team and being the bridge with the UX and UI art teams.",
+      "text_dev": "I joined the team as the Lead UI Programmer and had to create the base UI system to be within the company moving forward, after establishing the system I had to start working on the bespoke needs of the project while managing the UI code team and being the bridge with the UX and UI art teams.",
       "text_link": {
         "url": "",
         "label": ""
@@ -222,8 +222,8 @@
           "url": "/images/portfolio/hamster04.webp"
         }
       ],
-      "text_intro": "I was a part of Loco game team that participated in the Jamchester 2017 which is a \\\"professional\\\" game jam organized annually in Manchester which gathers all the talent in the north west of the UK.",
-      "text_dev": "The jam theme was \\\"shape the future\\\" and we created a co-op brawler among ganster hamsters, all graphic style was created in jam just like music. The project can be seen in ",
+      "text_intro": "I was a part of Loco game team that participated in the Jamchester 2017 which is a \"professional\" game jam organized annually in Manchester which gathers all the talent in the north west of the UK.",
+      "text_dev": "The jam theme was \"shape the future\" and we created a co-op brawler among ganster hamsters, all graphic style was created in jam just like music. The project can be seen in ",
       "text_link": {
         "url": "https://gamejolt.com/games/hamster-gangster/276479",
         "label": "Gamejolt Page"

@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="container">
                 <div className="hm-footer-copyright text-center">
                     <div className="info col-md-6 col-sm-6">
-                        <span className="copyright">Copyright &copy; hugoflsilva.com</span>
+                        <span className="copyright">Copyright &copy; hugoflsilva.com 2025</span>
                     </div>
                     <div className="info col-md-6 col-sm-6">
                         <ul className="list-inline quicklinks">
