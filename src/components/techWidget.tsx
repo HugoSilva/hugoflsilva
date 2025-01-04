@@ -1,6 +1,6 @@
 ﻿'use client'
 
-import {ProjectType, TechType} from "@/lib/DataTypes.d";
+import {TechType} from "@/lib/DataTypes.d";
 import * as motion from "motion/react-client"
 
 const FadeIn = {
