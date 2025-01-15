@@ -14,7 +14,7 @@ export default function Navbar() {
             syncTouch: true, // Enable smooth scrolling on touch devices
         });
 
-        function raf(time: any) {
+        function raf(time: number) {
             lenis.raf(time);
             requestAnimationFrame(raf);
         }
