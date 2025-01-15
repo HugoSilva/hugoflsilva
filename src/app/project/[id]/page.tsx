@@ -10,8 +10,8 @@ const FadeIn = {
 
 export default async function Page() {
 
-    const data:DataType = await getLocalData();
-    
+    const data: DataType = await getLocalData();
+
     return (
         <div>
             <motion.div
@@ -27,5 +27,5 @@ export default async function Page() {
                 <ProjectModal projects={data.projects}></ProjectModal>
             </motion.div>
         </div>
-);
+    );
 }

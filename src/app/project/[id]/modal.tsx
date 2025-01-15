@@ -42,7 +42,7 @@ export default function ProjectModal({projects}: { projects: ProjectType[] }) {
                             <div className="modal-body">
                                 <h2>{selectedProject.title}</h2>
                                 <p className="item-intro text-muted">{selectedProject.company}</p>
-                                { selectedProject.images.length > 1 ? (
+                                {selectedProject.images.length > 1 ? (
                                     <Slider {...settings}>
                                         {
                                             selectedProject.images.map(image => (
@@ -55,7 +55,8 @@ export default function ProjectModal({projects}: { projects: ProjectType[] }) {
                                     </Slider>
                                 ) : (
                                     <div key={"img_" + selectedProject.images[0].id}>
-                                        <Image className="img-responsive img-centered" src={selectedProject.images[0].url}
+                                        <Image className="img-responsive img-centered"
+                                               src={selectedProject.images[0].url}
                                                alt="" width={1920} height={1080}/>
                                     </div>
                                 )}
