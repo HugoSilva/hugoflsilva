@@ -48,6 +48,9 @@ export default async function Portfolio() {
                                                     <div className="isotope-overlay">
                                                         <h1>{project.title}</h1>
                                                     </div>
+                                                    <div className="portfolio-caption">
+                                                        <h4>{project.title}</h4>
+                                                    </div>
                                                 </div>
                                             </Link>
                                         </motion.div>
