@@ -7,22 +7,19 @@ import Tech from "@/components/tech";
 import Portfolio from "@/components/portfolio";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
-import Script from "next/script";
+import ReactLenis from "lenis/react";
+import {LenisOptions} from "lenis";
 
 export default function Page() {
-    
+
+    const lenisOptions: LenisOptions = {
+        duration: 0.6,
+        smoothWheel: true,
+        syncTouch: true
+    };
+
     return (
         <div id="page-top">
-            <Navbar></Navbar>
-            <Hero></Hero>
-            <About></About>
-            <Skills></Skills>
-            <Experience></Experience>
-            <Tech></Tech>
-            <Portfolio></Portfolio>
-            <Contact></Contact>
-            <Footer></Footer>
-
             <Script src="/js/jquery.js" strategy="beforeInteractive"></Script>
             <Script src="/js/modernizr.min.js" strategy="beforeInteractive"></Script>
             <Script src="/js/bootstrap.min.js" strategy="beforeInteractive"></Script>
@@ -32,6 +29,17 @@ export default function Page() {
             <Script src="/js/jquery.appear.js" strategy="beforeInteractive"></Script>
             <Script src="/js/jquery.easing.min.js" strategy="beforeInteractive"></Script>
             <Script src="/js/custom.js" strategy="beforeInteractive"></Script>
+            <ReactLenis options={lenisOptions} root>
+                <Navbar></Navbar>
+                <Hero></Hero>
+                <About></About>
+                <Skills></Skills>
+                <Experience></Experience>
+                <Tech></Tech>
+                <Portfolio></Portfolio>
+                <Contact></Contact>
+                <Footer></Footer>
+            </ReactLenis>
         </div>
     );
 }
