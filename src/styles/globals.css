@@ -1,3 +1,12 @@
+/* Root stylesheet */
+@import './font-awesome.min.css';
+@import './flaticon.css';
+@import './fontello.css';
+@import './bootstrap.min.css';
+@import './bootsnav.css';
+@import './style.css';
+@import './responsive.css';
+
 .portfolio-link {
     width: 100%;
 }
