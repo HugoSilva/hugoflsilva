@@ -20,15 +20,6 @@ export default function Page() {
 
     return (
         <div id="page-top">
-            <Script src="/js/jquery.js" strategy="beforeInteractive"></Script>
-            <Script src="/js/modernizr.min.js" strategy="beforeInteractive"></Script>
-            <Script src="/js/bootstrap.min.js" strategy="beforeInteractive"></Script>
-            <Script src="/js/bootsnav.js" strategy="beforeInteractive"></Script>
-            <Script src="/js/jquery.sticky.js" strategy="beforeInteractive"></Script>
-            <Script src="/js/progressbar.js" strategy="beforeInteractive"></Script>
-            <Script src="/js/jquery.appear.js" strategy="beforeInteractive"></Script>
-            <Script src="/js/jquery.easing.min.js" strategy="beforeInteractive"></Script>
-            <Script src="/js/custom.js" strategy="beforeInteractive"></Script>
             <ReactLenis options={lenisOptions} root>
                 <Navbar></Navbar>
                 <Hero></Hero>
