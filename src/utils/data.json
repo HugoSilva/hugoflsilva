@@ -36,17 +36,17 @@
   "projects": [
     {
       "id": 0,
-      "title": "Project Rubicon",
+      "title": "Unannounced Game",
       "company": "Spliced Inc. (Netease Studio)",
       "image": "/images/portfolio/RubiconLogo.webp",
-      "image_alt": "Project Rubicon Logo",
+      "image_alt": "Unannounced Game Logo",
       "images": [
         {
           "id": 1,
           "url": "/images/portfolio/Rubicon01.webp"
         }
       ],
-      "text_intro": "Project Rubicon is a 3rd person action-adventure game, it is an original IP developed by Spliced Inc, and it is currently in development, so I can't share any more information.",
+      "text_intro": "This Unannounced Game is a innovative take on what a game is, it is currently in development by the team at Spliced Inc, so I can't share any more information until its announcement.",
       "text_dev": "When I joined the company as the Lead UI Engineer, I had to define the workflow and dev processes for the UI department, including UX design, UI art and UI code teams, I also had to plan and develop the UI code system, refactor the existing UI code base, plan estimate and develop UI features, while managing a team of 2 UI programmers.",
       "text_link": {
         "url": "",
