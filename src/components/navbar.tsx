@@ -27,34 +27,35 @@ export default function NavbarWidget() {
     return (
         <header className="top-area">
             <div className="header-area">
-                <Navbar expand="lg" fixed="top"
-                        className="navbar navbar-default bootsnav navbar-fixed dark no-background" collapseOnSelect
+                <Navbar collapseOnSelect expand="lg" className="navbar bootsnav"
                         style={{position: "fixed", top: 0, right: 0, left: 0, zIndex: 1030}}>
                     <Container className="container">
                         <div className="navbar-header">
                             <Navbar.Brand className="navbar-brand"
                                           onClick={() => scrollTo("#page-top")} as="a">HugoflSilva</Navbar.Brand>
-                            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                            <Navbar.Toggle aria-controls="basic-navbar-nav" className={"navbar-toggle"}>
+                                <i className="fa fa-bars"></i>
+                            </Navbar.Toggle>
                         </div>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="nav navbar-nav navbar-right" as="ul">
                                 <Nav.Item as="li" onClick={() => scrollTo("#about")}>
-                                    <Nav.Link>about</Nav.Link>
+                                    <Nav.Link href="#">about</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li" onClick={() => scrollTo("#skills")}>
-                                    <Nav.Link>skills</Nav.Link>
+                                    <Nav.Link href="#">skills</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li" onClick={() => scrollTo("#experience")}>
-                                    <Nav.Link>experience</Nav.Link>
+                                    <Nav.Link href="#">experience</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li" onClick={() => scrollTo("#profiles")}>
-                                    <Nav.Link>tech</Nav.Link>
+                                    <Nav.Link href="#">tech</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li" onClick={() => scrollTo("#portfolio")}>
-                                    <Nav.Link>portfolio</Nav.Link>
+                                    <Nav.Link href="#">portfolio</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li" onClick={() => scrollTo("#contact")}>
-                                    <Nav.Link>contact</Nav.Link>
+                                    <Nav.Link href="#">contact</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                         </Navbar.Collapse>
