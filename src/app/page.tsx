@@ -15,7 +15,6 @@ export default function Page() {
     const lenisOptions: LenisOptions = {
         duration: 0.6,
         smoothWheel: true,
-        syncTouch: true
     };
 
     return (
