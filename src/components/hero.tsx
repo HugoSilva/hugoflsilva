@@ -36,7 +36,7 @@ export default function Hero() {
                                 initial="hidden"
                                 whileInView="visible"
                                 viewport={{once: true}}>
-                                <a href="/download/hugoflsilva_cv.pdf" download>download resume</a>
+                                <a href="/download/hugoflsilva_cv.pdf" download>download CV</a>
                             </motion.div>
                         </div>
                     </div>

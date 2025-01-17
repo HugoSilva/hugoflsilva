@@ -1,12 +1,12 @@
 ﻿import Image from "next/image";
 import {DataType} from "@/lib/DataTypes.d";
-import {getLocalData} from "@/api/dataLayer";
+import {getLocalData} from "@/utils/dataLayer";
 import Link from "next/link";
 import * as motion from "motion/react-client"
 
 const ZoomIn = {
     visible: {opacity: 1, scale: 1},
-    hidden: {opacity: 0.1, scale: 0.5},
+    hidden: {opacity: 0.0, scale: 0.5},
 }
 
 export default async function Portfolio() {
@@ -32,6 +32,7 @@ export default async function Portfolio() {
                                             whileInView="visible"
                                             viewport={{once: true}}
                                             transition={{
+                                                delay: 0.2,
                                                 duration: 0.3,
                                                 ease: "easeIn"
                                             }}>
@@ -46,6 +47,9 @@ export default async function Portfolio() {
                                                     />
                                                     <div className="isotope-overlay">
                                                         <h1>{project.title}</h1>
+                                                    </div>
+                                                    <div className="portfolio-caption">
+                                                        <h4>{project.title}</h4>
                                                     </div>
                                                 </div>
                                             </Link>

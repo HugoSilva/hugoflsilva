@@ -1,3 +1,12 @@
+/* Root stylesheet */
+@import './font-awesome.min.css';
+@import './flaticon.css';
+@import './fontello.css';
+@import './bootstrap.min.css';
+@import './bootsnav.css';
+@import './style.css';
+@import './responsive.css';
+
 .portfolio-link {
     width: 100%;
 }
@@ -89,16 +98,29 @@
     font-size: 28px;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px #055B8D;
+    text-align: center;
 }
 
 .btn-primary {
-    border-color: #3498db;
+    border-color: #3498db !important;
     text-transform: uppercase;
     font-weight: 600 !important;
     color: #fff;
-    background-color: #3498db;
+    background-color: #3498db !important;
 }
 
 .modal-body.justify p {
     text-align: justify;
+}
+
+.modal-body .h3 {
+    font-size: 24px;
+}
+
+.clear-styling {
+    all: unset;
+}
+
+.white-color-text {
+    color: #fff;
 }

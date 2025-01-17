@@ -3,14 +3,16 @@ import Image from "next/image";
 
 const SlideRight = {
     visible: {x: 0, opacity: 1, scale: 1},
-    hidden: {x: -100, opacity: 0.5, scale: 0.8},
+    hidden: {x: -100, opacity: 0.1, scale: 0.8},
 }
+
 const SlideLeft = {
     visible: {x: 0, opacity: 1, scale: 1},
-    hidden: {x: 100, opacity: 0.5, scale: 0.8},
+    hidden: {x: 100, opacity: 0.1, scale: 0.8},
 }
 
 export default function About() {
+        
     return (
         <section id="about" className="about">
             <div className="section-heading text-center">
@@ -26,8 +28,9 @@ export default function About() {
                                 whileInView="visible"
                                 viewport={{once: true}}
                                 transition={{
-                                    duration: 0.1,
-                                    ease: "easeOut"
+                                    delay: 0.1,
+                                    duration: 0.2,
+                                    ease: "easeIn"
                                 }}>
                                 <div className="single-about-txt">
                                     <h3>
@@ -57,8 +60,9 @@ export default function About() {
                                 whileInView="visible"
                                 viewport={{once: true}}
                                 transition={{
-                                    duration: 0.1,
-                                    ease: "easeOut"
+                                    delay: 0.1,
+                                    duration: 0.2,
+                                    ease: "easeIn"
                                 }}>
                                 <div className="single-about-img">
                                     <Image src="/images/about/profile_image.jpg" alt="profile_image" width={500} height={466}/>

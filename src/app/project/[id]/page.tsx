@@ -1,5 +1,5 @@
 import {DataType} from "@/lib/DataTypes.d";
-import {getLocalData} from "@/api/dataLayer";
+import {getLocalData} from "@/utils/dataLayer";
 import * as motion from "motion/react-client"
 import ProjectModal from "@/app/project/[id]/modal";
 
@@ -10,8 +10,8 @@ const FadeIn = {
 
 export default async function Page() {
 
-    const data:DataType = await getLocalData();
-    
+    const data: DataType = await getLocalData();
+
     return (
         <div>
             <motion.div
@@ -20,11 +20,12 @@ export default async function Page() {
                 animate="visible"
                 exit="hidden"
                 transition={{
+                    delay: 0.1,
                     duration: 0.3,
                     ease: "easeIn"
                 }}>
                 <ProjectModal projects={data.projects}></ProjectModal>
             </motion.div>
         </div>
-);
+    );
 }

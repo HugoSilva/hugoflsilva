@@ -1,5 +1,6 @@
 ﻿import {DataType} from "@/lib/DataTypes.d";
-import {getLocalData} from "@/api/dataLayer";
+import {getLocalData} from "@/utils/dataLayer";
+import * as motion from "motion/react-client"
 
 export default async function Skills() {
 
@@ -20,11 +21,20 @@ export default async function Skills() {
                                         <span className="progressText">{skill.name}</span>
                                         <div className="single-progress-txt">
                                             <div className="progress ">
-                                                <div className="progress-bar" role="progressbar" aria-valuenow={skill.value}
-                                                     aria-valuemin={10}
-                                                     aria-valuemax={100}>
-
-                                                </div>
+                                                <motion.div
+                                                    className="progress-bar" role="progressbar"
+                                                    variants={{
+                                                        visible: {width: skill.value + "%"},
+                                                        hidden: {width: "0%"},
+                                                    }}
+                                                    initial="hidden"
+                                                    whileInView="visible"
+                                                    viewport={{once: true}}
+                                                    transition={{
+                                                        duration: 0.1,
+                                                        ease: "easeIn"
+                                                    }}>
+                                                </motion.div>
                                             </div>
                                             <h3>{skill.value}%</h3>
                                         </div>

@@ -1026,6 +1026,10 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         display: none !important;
     }
     
+    nav.navbar.bootsnav .navbar-collapse.collapse.show {
+        display: block !important;
+    }
+    
     nav.navbar.bootsnav .navbar-collapse.collapse.in {
         display: block !important;
     }
@@ -1280,7 +1284,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     /* Tabs
     =================================*/ 
     nav.navbar.bootsnav .megamenu-content.tabbed{
-        padding-left: 0 !mportant;
+        padding-left: 0 !important;
     }
     
     nav.navbar.bootsnav .tabbed > li{

@@ -36,7 +36,7 @@ export default function TermsModal() {
                                 <p>
                                     <ol type="a">
                                         <li>Permission is granted to temporarily download one copy of the materials
-                                            (information or software) on Hugo Silva's website for personal,
+                                            (information or software) on Hugo Silva&apos;s website for personal,
                                             non-commercial transitory viewing only. This is the grant of a license, not
                                             a transfer of title, and under this license you may not:
                                             <ol type="i">
@@ -45,12 +45,12 @@ export default function TermsModal() {
                                                     display (commercial or non-commercial);
                                                 </li>
                                                 <li>attempt to decompile or reverse engineer any software contained on
-                                                    Hugo Silva's website;
+                                                    Hugo Silva&apos;s website;
                                                 </li>
                                                 <li>remove any copyright or other proprietary notations from the
                                                     materials; or
                                                 </li>
-                                                <li>transfer the materials to another person or "mirror" the materials
+                                                <li>transfer the materials to another person or &quot;mirror&quot; the materials
                                                     on any other server.
                                                 </li>
                                             </ol>
@@ -66,7 +66,7 @@ export default function TermsModal() {
                                 <h3>3. Disclaimer</h3>
                                 <p>
                                     <ol type="a">
-                                        <li>The materials on Hugo Silva's website are provided on an 'as is' basis. Hugo
+                                        <li>The materials on Hugo Silva&apos;s website are provided on an &apos;as is&apos; basis. Hugo
                                             Silva makes no warranties, expressed or implied, and hereby disclaims and
                                             negates all other warranties including, without limitation, implied
                                             warranties or conditions of merchantability, fitness for a particular
@@ -84,13 +84,13 @@ export default function TermsModal() {
                                 <p>In no event shall Hugo Silva or its suppliers be liable for
                                 any damages (including, without limitation, damages for loss of data or profit, or due
                                 to business interruption) arising out of the use or inability to use the materials on
-                                Hugo Silva's website, even if Hugo Silva or a Hugo Silva authorized representative has
+                                Hugo Silva&apos;s website, even if Hugo Silva or a Hugo Silva authorized representative has
                                 been notified orally or in writing of the possibility of such damage. Because some
                                 jurisdictions do not allow limitations on implied warranties, or limitations of
                                 liability for consequential or incidental damages, these limitations may not apply to
                                 you.</p>
                                 <h3>5. Accuracy of materials</h3>
-                                <p>The materials appearing on Hugo Silva's website could include technical,
+                                <p>The materials appearing on Hugo Silva&apos;s website could include technical,
                                     typographical, or photographic errors. Hugo Silva does not warrant that any of the
                                     materials on its website are accurate, complete or current. Hugo Silva may make
                                     changes to the materials contained on its website at any time without notice.

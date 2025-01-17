@@ -1,6 +1,6 @@
 import type {Metadata, Viewport} from "next";
 import {Geist, Geist_Mono} from "next/font/google";
-import "./globals.css";
+import "@/styles/globals.css";
 import {GoogleAnalytics} from "@next/third-parties/google";
 
 const geistSans = Geist({
@@ -37,13 +37,6 @@ export default function RootLayout({children,}: Readonly<{ children: React.React
                 rel="stylesheet"/>
             <title>Hugo Silva</title>
             <link rel="shortcut icon" type="image/icon" href="/images/logo/favicon.ico"/>
-            <link rel="stylesheet" href="/css/font-awesome.min.css"/>
-            <link rel="stylesheet" href="/css/flaticon.css"/>
-            <link rel="stylesheet" href="/css/fontello.css"/>
-            <link rel="stylesheet" href="/css/bootstrap.min.css"/>
-            <link rel="stylesheet" href="/css/bootsnav.css"/>
-            <link rel="stylesheet" href="/css/style.css"/>
-            <link rel="stylesheet" href="/css/responsive.css"/>
         </head>
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}

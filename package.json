@@ -3,17 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "node server.js",
+    "dev_next": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
+    "start_next": "next start",
+    "start": "SET NODE_ENV=production & node server.js",
     "lint": "next lint"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.2",
+    "bootstrap": "^5.3.3",
+    "lenis": "^1.1.18",
     "motion": "^11.15.0",
-    "next": "15.1.0",
+    "next": "^15.1.4",
+    "nodemailer": "^6.9.16",
     "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
     "react-modal": "^3.16.3",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1"
@@ -21,6 +28,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.17",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/react-modal": "^3.16.3",

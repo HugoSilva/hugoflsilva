@@ -163,7 +163,7 @@
                                                 <div className="timeline-content">
                                                     <h4 className="title">
                                                         <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                                        Zapitc
+                                                        Zaptic
                                                     </h4>
                                                     <h5>Manchester, UK</h5>
                                                     <p className="description">
