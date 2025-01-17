@@ -23,13 +23,6 @@ export type FormData = {
 export default function Contact() {
 
     const {register, handleSubmit} = useForm<FormData>();
-
-    const mobileBreakpoint = 992;
-    let isMobile = window.innerWidth < mobileBreakpoint;
-    if (isMobile)
-    {
-        SlideLeft.hidden.x = 0;
-    }
     
     function onSubmit(data: FormData) {
         sendEmail(data);

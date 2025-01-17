@@ -1,8 +1,5 @@
-﻿'use client'
-
-import * as motion from "motion/react-client"
+﻿import * as motion from "motion/react-client"
 import Image from "next/image";
-import useBreakpoint from "@restart/hooks/useBreakpoint";
 
 const SlideRight = {
     visible: {x: 0, opacity: 1, scale: 1},
@@ -15,15 +12,7 @@ const SlideLeft = {
 }
 
 export default function About() {
-    
-    const mobileBreakpoint = 992;
-    let isMobile = window.innerWidth < mobileBreakpoint;
-    if (isMobile)
-    {
-        SlideRight.hidden.x = 0;
-        SlideLeft.hidden.x = 0;
-    }
-    
+        
     return (
         <section id="about" className="about">
             <div className="section-heading text-center">
